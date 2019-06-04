@@ -4,11 +4,11 @@
   <servlet>
     <description></description>
     <servlet-name>HomePageServletController</servlet-name>
-    <servlet-class>conduentdemo.controllers.HomePageServlet</servlet-class>
+    <servlet-class>src.conduentdemo.controllers.HomePageServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>HomePageServletController</servlet-name>
-    <url-pattern>/homePageClick</url-pattern>
+    <url-pattern>/homePage</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
     <welcome-file>home.jsp</welcome-file>

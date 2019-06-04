@@ -12,7 +12,12 @@
   <!-- Favicons -->
   <link href="${pageContext.request.contextPath}/img/favicon.png" rel="icon">
   <link href="${pageContext.request.contextPath}/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
@@ -47,13 +52,13 @@
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#intro">Home</a></li>
+          <li class="active"><a href="#intro">Home </a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
-          <li><a href="#team">Sign-Up</a></li>
-          <li><a href="#team">Feed Back</a></li>
+          <li><a href="#signUp" >Sign-Up</a></li>
+          <li><a href="#feedBack">Feed Back</a></li>
           <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -631,6 +636,123 @@
       </div>
     </section><!-- #team -->
 
+
+ <!--==========================
+      Sign-up Section
+    ============================-->
+    <section id="signUp">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>Sign Up</h3>
+        </div>
+
+        <div class="row wow fadeInUp">
+          <div class="col-lg-6">
+            <div class="form">
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                  <label for="name">UserName</label>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                 <div class="form-group">
+                 <label for="phoneNumber">Phone Number</label>
+                  <input type="text" class="form-control" name="phoneNumber" id="phoneNumber" placeholder="phoneNumber" data-rule="minlen:4" data-msg="Please enter phone number" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                 <label for="company">Company</label>
+                  <input type="text" class="form-control" name="company" id="company" placeholder="company" data-rule="minlen:4"  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                 <label for="roleId">Role</label>
+                  <input type="text" class="form-control" name="roleId" id="roleId" placeholder="roleId" />
+                  <div class="validation"></div>
+                </div>
+              </form>
+            </div>
+          </div>
+           <div class="col-lg-6">
+            <div class="form">
+              <form action="" method="post" role="form" class="contactForm">
+                 <div class="form-group">
+                  <label for="teamSize">Team Size</label>
+                  <input type="text" class="form-control" name="teamSize" id="teamSize" placeholder="teamSize"  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                <label for="skillSet">Skill Set</label>
+                  <input type="text" class="form-control" name="skillSet" id="skillSet" placeholder="skillSet"  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                <label for="message">Write SomeThing</label>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+              </form>
+            </div>
+          </div>
+ <div style="margin-bottom: 36px;margin-left:100px" ><button  type="submit" title="Cancel">Cancel</button></div>
+  <div style="margin-left: 30px;"><button type="submit" title="Register">Register</button></div>
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+
+
+ <!--==========================
+      Sign-up Section
+    ============================-->
+    <section id="feedBack">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>Feed Back</h3>
+        </div>
+
+        <div class="row wow fadeInUp">
+           <div class="col-lg-6">
+            <div class="form">
+              <form action="" method="post" role="form" class="contactForm">
+                 <div class="form-group">
+                  <label >Current Experience</label>
+                  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                <label for="comments">Comments</label>
+                  <textarea class="form-control" name="comments" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="comments"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                <label for="otherQuestions">Other Questions</label>
+                  <input type="text" class="form-control" name="otherQuestions" id="otherQuestions" placeholder="otherQuestions"  />
+                  <div class="validation"></div>
+                </div>
+                <div style="margin-bottom: 36px;" ><button  type="submit" title="Cancel">Cancel</button>
+                <button style="margin-left: 30px;" type="submit" title="Register">Register</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
 
  <!--==========================
       Clients Section

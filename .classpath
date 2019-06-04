@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/v-gagara/Downloads/jstl-1.2.jar/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/ecj-4.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/tomcat7-websocket.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="D:/Ganesh/Softwares/lib/websocket-api.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
