@@ -1,60 +1,56 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project basedir="." default="build" name="ConduentDemo">
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="ConduentDemo">
     <property environment="env"/>
     <property name="ECLIPSE_HOME" value="../../Ganesh/Softwares/eclipse-jee-oxygen-M2-win32-x86_64/eclipse/"/>
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="1.8"/>
     <property name="source" value="1.8"/>
-    <path id="Web App Libraries.libraryclasspath">
-        <pathelement location="WebContent/WEB-INF/lib/jstl-1.2.jar"/>
-    </path>
-    <path id="EAR Libraries.libraryclasspath"/>
-    <path id="Apache Tomcat v7.0 [Apache Tomcat v7.0].libraryclasspath">
-        <pathelement location="../../Ganesh/Softwares/lib/annotations-api.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/catalina-ant.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/catalina-ha.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/catalina-tribes.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/catalina.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/ecj-4.2.2.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/el-api.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/jasper-el.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/jasper.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/jsp-api.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/servlet-api.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/tomcat-api.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/tomcat-coyote.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/tomcat-dbcp.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/tomcat-i18n-es.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/tomcat-i18n-fr.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/tomcat-i18n-ja.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/tomcat-jdbc.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/tomcat-util.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/tomcat7-websocket.jar"/>
-        <pathelement location="../../Ganesh/Softwares/lib/websocket-api.jar"/>
-    </path>
     <path id="ConduentDemo.classpath">
-        <pathelement location="build/classes"/>
-        <path refid="Web App Libraries.libraryclasspath"/>
-        <path refid="EAR Libraries.libraryclasspath"/>
-        <path refid="Apache Tomcat v7.0 [Apache Tomcat v7.0].libraryclasspath"/>
+        <pathelement location="bin"/>
+        <pathelement location="lib/annotations-api.jar"/>
+        <pathelement location="lib/catalina.jar"/>
+        <pathelement location="lib/catalina-ant.jar"/>
+        <pathelement location="lib/catalina-ha.jar"/>
+        <pathelement location="lib/catalina-tribes.jar"/>
+        <pathelement location="lib/ecj-4.2.2.jar"/>
+        <pathelement location="lib/el-api.jar"/>
+        <pathelement location="lib/jasper.jar"/>
+        <pathelement location="lib/jasper-el.jar"/>
+        <pathelement location="lib/jsp-api.jar"/>
+        <pathelement location="lib/jstl-1.2.jar"/>
+        <pathelement location="lib/servlet-api.jar"/>
+        <pathelement location="lib/tomcat7-websocket.jar"/>
+        <pathelement location="lib/tomcat-api.jar"/>
+        <pathelement location="lib/tomcat-coyote.jar"/>
+        <pathelement location="lib/tomcat-dbcp.jar"/>
+        <pathelement location="lib/tomcat-i18n-es.jar"/>
+        <pathelement location="lib/tomcat-i18n-fr.jar"/>
+        <pathelement location="lib/tomcat-i18n-ja.jar"/>
+        <pathelement location="lib/tomcat-jdbc.jar"/>
+        <pathelement location="lib/tomcat-util.jar"/>
+        <pathelement location="lib/websocket-api.jar"/>
     </path>
     <target name="init">
-        <mkdir dir="build/classes"/>
-        <copy includeemptydirs="false" todir="build/classes">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
             <fileset dir="src">
                 <exclude name="**/*.java"/>
             </fileset>
         </copy>
     </target>
     <target name="clean">
-        <delete dir="build/classes"/>
+        <delete dir="bin"/>
     </target>
     <target depends="clean" name="cleanall"/>
     <target depends="build-subprojects,build-project" name="build"/>
     <target name="build-subprojects"/>
     <target depends="init" name="build-project">
         <echo message="${ant.project.name}: ${ant.file}"/>
-        <javac debug="true" debuglevel="${debuglevel}" destdir="build/classes" includeantruntime="false" source="${source}" target="${target}">
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
             <src path="src"/>
             <classpath refid="ConduentDemo.classpath"/>
         </javac>
@@ -73,17 +69,16 @@
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
-  	
-  	<target name="war" description="Bundles the application as a WAR file" depends="clean, build">
-  	    <mkdir dir="WebContent/WEB-INF/classes"/>
-  	    <copy includeemptydirs="false" todir="WebContent/WEB-INF/classes">
-  	            <fileset dir="build/classes">
-  	            <include name="**/*.class"/>
-  	            </fileset>
-  	    </copy>
-  	    <war destfile="conduentdemo.war"
-  	        basedir="WebContent"
-  	        needxmlfile="false">
-  	    </war>
-  	</target>
+              	<target name="war" description="Bundles the application as a WAR file" depends="clean, build">
+              	  	    <mkdir dir="WebContent/WEB-INF/classes"/>
+              	  	    <copy includeemptydirs="false" todir="WebContent/WEB-INF/classes">
+              	  	            <fileset dir="build/classes">
+              	  	            <include name="**/*.class"/>
+              	  	            </fileset>
+              	  	    </copy>
+              	  	    <war destfile="conduentdemo.war"
+              	  	        basedir="WebContent"
+              	  	        needxmlfile="false">
+              	  	    </war>
+              	  	</target> 	
 </project>
