@@ -24,7 +24,8 @@ a:hover,
 a:active,
 a:focus {
   color: #0b6bd3;
-  outline: none;
+  /* outline: none; */
+  outline: red solid 2px;
   text-decoration: none;
 }
 
@@ -412,7 +413,8 @@ h6 {
   background: none;
   font-size: 24px;
   transition: all 0.4s;
-  outline: none !important;
+  /* outline: none !important; */
+  outline: red solid 2px;
   line-height: 1;
   cursor: pointer;
   text-align: right;
@@ -1410,4 +1412,31 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+}
+
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+    color: #004289; 
+    background-color:#FFF;
+    border: 1px solid #004289;
+    padding: 5px 10px; 
+    font-weight: bold;
+    font-size:16px;
+}
+
+a.skip-main:focus, a.skip-main:active {
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow:auto;
+    display: block;
+    text-align:center;
+    z-index:999;
 }
