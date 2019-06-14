@@ -728,10 +728,10 @@
                  <div class="form-group">
                   <label >Current Experience</label>
                   <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
+			  	  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star checked"></span>
+				  <span class="fa fa-star"></span>
+				  <span class="fa fa-star"></span>
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
