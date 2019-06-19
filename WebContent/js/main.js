@@ -118,6 +118,32 @@
     loop: true,
     items: 1
   });
+  
+  
+  
+  
+  
+  
+  /*Menu State property*/
+  var menuItems = document.querySelectorAll('li.drop-down');
+  Array.prototype.forEach.call(menuItems, function(el, i){
+  	el.querySelector('a').addEventListener("click",  function(event){
+  		if (this.parentNode.className == "drop-down") {
+  			this.parentNode.className = "drop-down open";
+  			this.setAttribute('aria-expanded', "true");
+  		} else {
+  			this.parentNode.className = "drop-down";
+  			this.setAttribute('aria-expanded', "false");
+  		}
+  		event.preventDefault();
+  		return false;
+  	});
+  });
+  
+  
+  
+  
+  
 
 })(jQuery);
 

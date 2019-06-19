@@ -59,10 +59,10 @@
           <li><a href="#team">Team</a></li>
           <li><a href="#signUp" >Sign-Up</a></li>
           <li><a href="#feedBack">Feed Back</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
+          <li class="drop-down"><a href="" aria-haspopup="true" aria-expanded="false">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
+              <li class="drop-down"><a href="#" aria-haspopup="true" aria-expanded="false">Drop Down 2</a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
