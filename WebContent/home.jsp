@@ -268,7 +268,7 @@
               <div class="card-body">
                 <h5 class="card-title">Corporis dolorem</h5>
                 <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
-                <a href="#" class="readmore">Read more </a>
+                <a href="#" class="readmore" aria-label="Read more about Corporis dolorem" data-toggle="tooltip" title="Read more about Corporis dolorem">Read more </a>
               </div>
             </div>
           </div>
@@ -279,7 +279,7 @@
               <div class="card-body">
                 <h5 class="card-title">Voluptates dolores</h5>
                 <p class="card-text">Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
-                <a href="#" class="readmore">Read more </a>
+                <a href="#" class="readmore" aria-label="Read more about Voluptates dolores" data-toggle="tooltip" title="Read more about Voluptates dolores">Read more </a>
               </div>
             </div>
           </div>
@@ -290,7 +290,7 @@
               <div class="card-body">
                 <h5 class="card-title">Eum ut aspernatur</h5>
                 <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
-                <a href="#" class="readmore">Read more </a>
+                <a href="#" class="readmore" aria-label="Read more about Eum ut aspernatur" data-toggle="tooltip" title="Read more about Eum ut aspernatur">Read more </a>
               </div>
             </div>
           </div>
@@ -354,8 +354,8 @@
                 <h4><a href="#">App 1</a></h4>
                 <p>App</p>
                 <div>
-                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview App-1" aria-label="Click Here to Preview App-1"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details on App-1" aria-label="Click Here for More Detail on App-1"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -368,8 +368,8 @@
                 <h4><a href="#">Web 3</a></h4>
                 <p>Web</p>
                 <div>
-                  <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview Web 3" aria-label="Click Here to Preview Web 3"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details on Web 3" aria-label="Click Here for More Detail on Web 3"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -382,8 +382,8 @@
                 <h4><a href="#">App 2</a></h4>
                 <p>App</p>
                 <div>
-                  <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview App-2" aria-label="Click Here to Preview App-2"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details on App-2" aria-label="Click Here for More Detail on App-2"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -396,8 +396,8 @@
                 <h4><a href="#">Card 2</a></h4>
                 <p>Card</p>
                 <div>
-                  <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview Card 2" aria-label="Click Here to Preview Card 2"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details on Card 2" aria-label="Click Here for More Detail on Card 2"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -410,8 +410,8 @@
                 <h4><a href="#">Web 2</a></h4>
                 <p>Web</p>
                 <div>
-                  <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview Web 2" aria-label="Click Here to Preview Web 2"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details on Web 2" aria-label="Click Here for More Detail on Web 2"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -424,8 +424,8 @@
                 <h4><a href="#">App 3</a></h4>
                 <p>App</p>
                 <div>
-                  <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview App-3" aria-label="Click Here to Preview App-3"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details on App 3" aria-label="Click Here for More Detail on App 3"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -438,8 +438,8 @@
                 <h4><a href="#">Card 1</a></h4>
                 <p>Card</p>
                 <div>
-                  <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview Card 1" aria-label="Click Here to Preview Card 1"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details on Card-1" aria-label="Click Here for More Detail on Card-1"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -452,8 +452,8 @@
                 <h4><a href="#">Card 3</a></h4>
                 <p>Card</p>
                 <div>
-                  <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview Card 3" aria-label="Click Here to Preview Card 3"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details on Card-3" aria-label="Click Here for More Detail on Card-3"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -466,8 +466,8 @@
                 <h4><a href="#">Web 1</a></h4>
                 <p>Web</p>
                 <div>
-                  <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview Web 1" aria-label="Click Here to Preview Web 1"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details on Web-1" aria-label="Click Here for More Detail on Web-1"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
@@ -862,20 +862,24 @@
               <form action="" method="post" role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <label for="UserName">Your Name</label>
+                    <input type="text" name="name" class="form-control" id="UserName" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                     <div class="validation"></div>
                   </div>
                   <div class="form-group col-lg-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <label for="UserEmail">Your Email</label>
+                    <input type="email" class="form-control" name="email" id="UserEmail" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                     <div class="validation"></div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <label for="Usersubject">Enter Subject</label>
+                  <input type="text" class="form-control" name="subject" id="Usersubject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <label for="Usermessage">Your Message</label>
+                  <textarea class="form-control" name="Usermessage" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
                 <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
